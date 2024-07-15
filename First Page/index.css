@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header, .daily-combo, .coins, .sections, .navigation {
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bronze {
+    flex: 1;
+    text-align: left;
+}
+
+.profit {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profit img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.settings {
+    flex: 1;
+    text-align: right;
+}
+
+.settings img {
+    width: 20px;
+    height: 20px;
+}
+
+.daily-combo {
+    text-align: center;
+}
+
+.combo-box {
+    display: flex;
+    justify-content: center;
+}
+
+.combo-item {
+    margin: 0 10px;
+}
+
+.combo-item img {
+    width: 50px;
+    height: 50px;
+}
+
+.bonus {
+    font-size: 18px;
+    color: #ffd700;
+}
+
+.coins {
+    text-align: center;
+    font-size: 24px;
+}
+
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section {
+    flex: 1 1 45%;
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.section.active {
+    border: 2px solid #ffd700;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 50px;
+    height: 50px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-item img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
